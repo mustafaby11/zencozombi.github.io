@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zombi Saldırısı</title>
+  <link rel="icon" href="https://cdn.glitch.global/506a3d9f-40f4-44ec-bb76-0947895d53d6/favicon.ico?v=1742718448335" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="alertMessage" class="hidden">
+    Bu versiyon sadece PC'lere desteklenir.
+  </div>
+
+  <div id="gameArea">
+    <div id="player"></div>
+    <div id="score">Puan: 0</div>
+    <div id="gameOverMessage" class="hidden">Oyun Bitti! Puanınız: <span id="finalScore"></span></div>
+    <button id="restartButton" class="hidden">Yeniden Başlat</button>
+  </div>
+
+  <audio id="gameSound" src="https://cdn.glitch.global/506a3d9f-40f4-44ec-bb76-0947895d53d6/sound.mp3?v=1742718335578" preload="auto"></audio>
+  <button id="soundToggle" class="soundToggle">🔊</button>
+
+  <script src="game.js"></script>
+</body>
+</html>
