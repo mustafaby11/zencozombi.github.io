@@ -1,3 +1,3 @@
-# zencozombi.glitch.me
+# zencozombi.github.io
 
-zencozombi.glitch.me'nin kaynak kodları (yedek)
+zencozombi.github.io'nin kaynak kodları (yedek)
